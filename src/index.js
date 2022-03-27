@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root') //<App />이 root라는 아이디를 가진 태그로 랜더링 (public/index.html)
 );
 
 // If you want to start measuring performance in your app, pass a function
